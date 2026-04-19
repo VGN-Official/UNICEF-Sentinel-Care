@@ -23,7 +23,7 @@ const showSmsButton = (body) => {
     if (c1) {
         buttonsHTML += `
             <a href="${smsUrlBuilder(c1, body)}" style="background: #00ADEF; display:block; padding: 22px; color: white; border-radius: 15px; text-decoration: none; font-weight: bold; text-align: center; margin-bottom:15px; border-bottom: 5px solid #00ADEF; font-size: 1.1em;">
-               🚨 HEARTBEAT SIGNAL
+               🚨 SENTINEL COMMAND SIGNAL
             </a>`;
     }
 
